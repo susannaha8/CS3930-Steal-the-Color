@@ -6,7 +6,7 @@ For our module 1 installation, we used an ESP32 TTGO display, a joystick, and a 
 
 ## Setting up the Hardware
 
-This project consists of a breadboard, 7 wires, and three main pieces of hardware: an ESP32, a joystick, and a button. Plug the pins of the hardware into the breadboard, and connected them further with wires: connect the joystick to the ESP32 with one wire to Ground, one to 3V, and the other three to pins 25, 26, and 27 for X, Y, and Z motion; connect the button with one wire to Ground, and the other to pin 13 for digital input. The ESP32 is powered via a USBC cable.
+This project consists of a breadboard, 7 wires, and three main pieces of hardware: an ESP32, a joystick, and a button. Prepare the wires by stripping a bit of the plastic off each end. Plug the pins of the hardware into the breadboard, and connected them further with wires: connect the joystick to the ESP32 with one wire to Ground, one to 3V, and the other three to pins 25, 26, and 27 for X, Y, and Z motion; connect the button with one wire to Ground, and the other to pin 13 for digital input. The ESP32 is powered via a USBC cable.
 
 <img src="/hardware.png" alt="hardware setup" style="height: 300px;"/>
 
