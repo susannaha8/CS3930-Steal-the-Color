@@ -65,13 +65,13 @@ def main():
 
 		#if joystick is not being pressed and inside_rect, trapped
 		#if button is being pressed, not trapped
-		if(ser_vals[2]==1 and ser_vals[3]==0):
+		if(ser_vals[2]==1 and ser_vals[3]==1):
 			player_pos = trapped(rect_pos, rect_dim, player_pos)
 
 
 		#if joystick pressed when inside square, change color and break out
 		#if button being pressed, can change color anytime
-		if ((ser_vals[2] == 0 and inside) or ser_vals[1]==1):
+		if ((ser_vals[2] == 0 and inside) or ser_vals[3]==0):
 			color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 			rect_pos = (random.randint(0,800), random.randint(0,600))
 			inside = 0
