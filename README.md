@@ -18,7 +18,7 @@ To check that you are recieving serial input, open the Serial Moniter. As you mo
 
 ## Reading Serial Input
 
-Once you confirm you are recieving serial input, you need to retrieve that input so you can parse it. This is done in `reader.py`. First install the python module serial with `pip install pyserial`. Use the line `ser = serial.Serial('/dev/cu.usbserial-546F1153241', 115200)` to tell serial the port and baudrate, and `str(ser.readline().strip(), 'ascii')` returns a string of the serial input you are recieving from your hardware. This line is in an infinite while loop, so you are continuously recieving lines of input. From there, you can use those values as variables that change color, or position, or any other features of your display.
+Once you confirm you are recieving serial input, you need to retrieve that input so you can parse it. This is done in `reader.py`. First install the python module serial with `pip install pyserial`. Use the line `ser = serial.Serial('/dev/cu.usbserial-546F1153241', 115200)` to tell serial the port and baudrate. `str(ser.readline().strip(), 'ascii')` returns a string of the serial input you are recieving from your hardware; this line is inside an infinite while loop, so you are continuously recieving lines of input. From there, you can use those values as variables that change color, or position, or any other features of your display.
 
 <img src="/serial_moniter.png" alt="serial moniter" style="height: 300px;"/>
 
