@@ -25,7 +25,7 @@ Once you confirm you are recieving serial input, you need to retrieve that input
 
 ## Creating My Display with PyGame
 
-PyGame is a helpful Python library that allows for the display of graphics. PyGame's documentation has helpful examples, and provide good explanations for various functions you can use to create simple games (https://www.pygame.org/docs/.) I built a game that has a moving circle (controlled by the joystick) that gets trapped in an invisble square, and to get out of the square, one must press the button on the joystick. This also has the effect of randomly changing the color of the circle. The button acts as a pass, changing the color of the cricle continuously, while circumvent the square of doom. Here is a picture of 'Trapped' in action:
+PyGame is a helpful Python library that allows for the display of graphics. PyGame's documentation has helpful examples, and provide good explanations for various functions you can use to create simple games (https://www.pygame.org/docs/.) I built a game that has a moving circle (controlled by the joystick) that gets trapped in an invisble square, and to get out of the square, one must press the button on the joystick. This also has the effect of randomly changing the color of the circle. The button acts as a pass, changing the color of the cricle continuously, while circumvent the square of doom. Here is a picture of 'Steal the Color' in action:
 
 
 <img src="/game_play.png" alt="pygame display with a single circle" style="height: 300px;"/>
