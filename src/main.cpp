@@ -20,5 +20,5 @@ void loop() {
   int zVal = digitalRead(25);
   int buttonVal = digitalRead(13);
   Serial.printf("X,Y,Z: %d,\t%d,\t%d, button: %d\n", xVal, yVal, zVal, buttonVal);
-  delay(100);
+  delay(100);  
 }
